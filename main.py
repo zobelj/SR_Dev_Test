@@ -99,6 +99,8 @@ if __name__ == '__main__':
 
     output = create_table(people_id='dea698d9', df=df)
 
+    print(output)
+
     # save the output to a file
     with open('joezobelj_sr_test.html', 'w') as f:
         f.write(output)
